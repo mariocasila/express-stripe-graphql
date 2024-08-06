@@ -1,0 +1,6 @@
+{
+  "watch": ["models", "config", "middleware", "helpers", "services", "."],
+  "ext": ".js,.json",
+  "ignore": [],
+  "exec": "node -r dotenv/config --inspect=127.0.0.1:9229"
+}
